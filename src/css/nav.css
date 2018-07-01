@@ -1,0 +1,74 @@
+.nav{
+  position: absolute;
+  top: 0%;
+  margin-top: 531px;
+  width: 1280px;
+  height:90px;
+  opacity: 1;
+}
+.nav p{
+  margin-top: 22px;
+  font-family: 'Shadows Into Light', cursive;
+  margin-left: 30px;
+  font-size: 30px;
+  color: #230B56;
+}
+.nav ul
+{
+  position: absolute;
+	display: flex;
+	top:0%;
+	margin-left: 950px;
+}
+.nav ul li
+{
+	text-decoration: none;
+	list-style: none;
+	padding: 0px;
+}
+.nav ul li a
+{
+	position:relative;
+	width: 60px;
+	background-color:#f1f1f1;
+	display: block;
+	text-align: center;
+	margin: 0 10px;
+	border-radius: 50%;
+	padding:6px;
+	box-sizing: border-box;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+	background:linear-gradient(0deg , #ddd , #fff);;
+	transition: .5s;
+	text-decoration: none;
+}
+.nav ul li a:hover
+{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+ .nav ul li a .fa
+{
+	background: #ff0;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	display: block;
+	border-radius: 50%;
+	font-size: 24px;
+	color: #262626;
+	transition: .5s;
+	line-height: calc(60px - 12px);
+	background: linear-gradient(0deg , #fff , #ddd);
+}
+.nav ul li:nth-child(1) a:hover .fa
+{
+	color: green;
+}
+.nav ul li:nth-child(2) a:hover .fa
+{
+	color: red;
+}
+.nav ul li:nth-child(3) a:hover .fa
+{
+	color: blue;
+}

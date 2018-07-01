@@ -1,0 +1,96 @@
+.post{
+  margin-left: 230px;
+  margin-top: 0px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  top: 0%;
+}
+.post p
+{
+  margin-left: 310px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  padding: 0px;
+  color: #230B56;
+}
+.post textarea
+{
+  margin-top:0px;
+  padding-top: 0px;
+  top: 0%;
+  outline: none;
+  width: 800px;
+  height:210px;
+  border-color: #230B56;
+  box-shadow: 0 0 10px #230B56;
+}
+.post textarea::placeholder
+{
+  color: #230B56;
+  font-size: 20px;
+}
+.post .icons .fa-paint-brush
+{
+  margin-top: 15px;
+  margin-left: 70px;
+  font-size: 40px;
+  color: #230B56;
+}
+.post .icons .fa-align-right
+{
+  margin-left: 50px;
+  font-size: 40px;
+  color: #230B56;
+}
+.post .icons  .fa-align-left
+{
+  margin-left: 50px;
+  font-size: 40px;
+  color: #230B56;
+}
+.post .icons .fa-text-height
+ {
+   margin-left: 50px;
+   font-size: 40px;
+   color: #230B56;
+ }
+ .post .icons .fa-text-width
+ {
+   margin-left: 50px;
+   font-size: 40px;
+   color: #230B56;
+ }
+.post .icons .fa-font
+ {
+   margin-left: 50px;
+   font-size: 40px;
+   color: #230B56;
+ }
+ .post .icons .fa-bold
+  {
+    margin-left: 50px;
+    font-size: 40px;
+    color: #230B56;
+  }
+  .post .icons .fa-underline
+   {
+     margin-left: 50px;
+     font-size: 40px;
+     color: #230B56;
+   }
+.post .postbtn
+{
+  margin-top: 30px;
+  margin-left:280px;
+  background-color: #230B56;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 170px;
+  border-radius: 30px;
+}

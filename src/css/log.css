@@ -1,0 +1,67 @@
+.loginbox
+		{
+			position: absolute;
+			top: 10%;
+			left: 40%;
+			font-size: 15px;
+		}
+.login .loginbox form .user
+		{
+      top: 0%;
+			width: 150px;
+			height: 150px;
+      margin-left: 70px
+    }
+
+.loginbox input
+{
+  height: 40px;
+  width: 300px;
+  border: 1.5px solid #230B56;
+  border-radius: 6px 6px 6px 6px;
+  box-sizing: border-box;
+}
+.loginbox input::placeholder {
+  color: #230B56;
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+.cust
+{
+  margin-left: 269px;
+  position: absolute;
+  background: #fff;
+  margin-top: 5px;
+  color: #230B56;
+}
+.loginbox button
+{
+  background-color:  #230B56;
+  color:white;
+  margin-left: 70px;
+  width: 120px;
+  height: 40px;
+  font-size: 30px;
+  border: 1.5px solid #230B56;
+  border-radius: 6px 6px 6px 6px;
+  box-sizing: border-box;
+}
+.loginbox .forp{
+  font-size: 20px;
+  text-decoration: none;
+  color: #230B56;
+  margin-left: 35px;
+}
+.loginbox .sigh{
+  font-size: 20px;
+  text-decoration: none;
+  color: #230B56;
+  margin-left: 35px;
+}
+.loginbox .para{
+  font-size: 20px;
+  text-decoration: none;
+  color: #230B56;
+  margin-left: 0px;
+}
